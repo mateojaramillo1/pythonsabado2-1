@@ -1,0 +1,13 @@
+edad = int(input("Digita tu edad: "))
+
+
+if(edad>=0 and edad <=14):
+    print(f'usted es niño {edad} años')
+elif(edad>14 and edad<=28):
+    print(f'usted es joven {edad} años')
+elif(edad>28 and edad<=60):
+    print(f'usted es adulto {edad} años')
+elif(edad>60):
+    print(f'usted es jadulto mayor {edad} años')
+else:
+    print("digite un valor correcto")
